@@ -121,9 +121,11 @@
 
                     {{-- ================================================= --}}
                     {{-- RESA 1 --}}
+                    {{-- Gör foreach loop för resor i databasen här istället för att hårdkoda dem. --}}
+                    {{-- Ta fram 4 st resor från databasen och använd dem i loopen. --}}
                     {{-- ================================================= --}}
 
-                    <article class="relative grid gap-6 md:grid-cols-[120px_1fr] md:gap-12">
+                    <div class="relative grid gap-6 md:grid-cols-[120px_1fr] md:gap-12">
 
                         {{-- Datum --}}
                         <div class="hidden pt-8 text-right md:block">
@@ -160,7 +162,7 @@
                                 {{-- Bild --}}
                                 <div class="group overflow-hidden">
 
-                                    <img src="https://images.unsplash.com/photo-1525160354320-d8e92641c563?auto=format&fit=crop&w=1200&q=85"
+                                    <img src="https://images.unsplash.com/photo-1558981806-ec527fa84c39?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8bW90b3JjeWNsZXxlbnwwfHwwfHx8MA%3D%3D"
                                         alt="Motorcykel på alpin väg"
                                         class="h-72 w-full object-cover transition duration-700 group-hover:scale-105 md:h-full"
                                         loading="lazy">
@@ -227,7 +229,7 @@
 
                         </article>
 
-                    </article>
+                    </div>
 
 
 
@@ -504,6 +506,7 @@
                 {{-- Visa alla --}}
                 <div class="mt-14 text-center">
 
+                {{-- Denna länk skickar användaren till sidan med alla resor --}}
                     <a href="#"
                         class="inline-flex items-center gap-3 rounded-lg border border-slate-300 px-7 py-3.5 text-sm font-black uppercase tracking-wide text-slate-800 transition hover:border-orange-500 hover:text-orange-500">
                         Visa alla resor
