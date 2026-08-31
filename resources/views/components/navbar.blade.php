@@ -14,7 +14,7 @@
                 </div>
 
                 <span class="text-xl font-black tracking-tight">
-                    MotoResor
+                    Mc Blogg
                 </span>
 
             </a>

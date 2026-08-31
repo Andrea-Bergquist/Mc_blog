@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', 'MotoResor – Äventyr på två hjul')
+@section('title', 'Mc Blogg – Äventyr på två hjul')
 
 @section('meta_description')
     Följ mina motorcykelresor, upptäck fantastiska vägar och läs berättelser från sadeln.
